@@ -1,0 +1,54 @@
+body {
+    background-image: url('./wood.jpg');
+}
+
+header {
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 10px auto;
+}
+
+nav ul li {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: justify;
+    display: inline-block;
+    margin: 10px 10px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+article {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    height: 500px;
+    width: 500px;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
