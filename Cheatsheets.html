@@ -28,8 +28,8 @@
                 </tr>
                 <tr>
                     <td class="col">&lt;em&gt;</td>
-                    <td>&lt;em&gt;world&lt;/em&gt;-<em>world</em></td>
-                    <td>强调，斜体</td>
+                    <td class="col2">&lt;em&gt;world&lt;/em&gt;-<em>world</em></td>
+                    <td class="col3">强调，斜体</td>
                 </tr>
                 <tr>
                     <td class="col">&lt;b&gt; &lt;strong&gt;</td>
@@ -105,6 +105,30 @@
                     <td class="col">&lt;rowspan&gt; &lt;colspan&gt;</td>
                     <td class="col2">用在标签内<br/>rowspan="2" colspan="3"</td>
                     <td class="col3">rowspan跨行属性（上下跨行），2代表跨两行。colspan跨列属性（左右跨列），3代表跨三列。</td>
+                </tr>
+                <tr>
+                    <td class="col"><strong>&lt;form&gt; 重点内容表单</strong></td>
+                    <td class="col2">&lt;form action="http://harry.com" method="post"&gt;<br>&lt;/form&gt;</td>
+                    <td class="col3">form表单是为了收集用户提供的数据，action是指示将用户的数据发送到哪里，
+                        method是决定使用那种方式发送（通常会用get或者post方式，post会更安全）</td>
+                </tr>
+                <tr>
+                    <td class="col">&lt;input&gt;</td>
+                    <td class="col2">&lt;input type="text" id="name" name="username" value="harry"&gt;</td>
+                    <td class="col3">input文本输入框是form表单最基本的小组件，id可以结合&lt;label for="name"&gt;一起使用，
+                        name是当用户提交表单时作为健值对提交的，value作为值和name一起提交，这里value的值默认是harry，也可以不用输入默认值让用户自己提供。
+                        <br><strong>input最关键的就是type的属性</strong>这里是text属性，可以让用户输入一段文字。type=“email”让用户输入一个有效的email地址。
+                        type=“password”输入的密码不会被别人看见。type=“search”搜索框。type=“tel”用于输入电话号码。type=“url”输入正确的网址。
+                        type=“radio”单选按钮：几个选项里面选一个（这几个选项name值要一样）。type=“checkbox”复选按钮：可以选择多项。
+                        type=“number”输入数字，通过min和max可以指定数字的最小和最大，可以使用setp设置数字幅度。type=“range”创建滑块，使用滑块控制数字大小。
+                        <br>日期时间选择器：type=“datetime-local”本地时间。type=“month”月。type=“time”时间。type=“week”星期。
+                        <br>type=“color”拾色器。type=“file”文件选择器。type=“hidden”隐藏内容。type=“image”图像按钮。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col">&lt;&gt;</td>
+                    <td class="col2"></td>
+                    <td class="col3"></td>
                 </tr>
                 <tr>
                     <td class="col">&lt;&gt;</td>
