@@ -17,9 +17,10 @@ h1 {
 }
 
 header ul {
+    font-size: 20px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgba(15, 1, 54, 0.5);
+    background-color: rgba(200, 186, 238, 0.8);
 }
 
 header ul li {
