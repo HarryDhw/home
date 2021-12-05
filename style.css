@@ -1,9 +1,8 @@
-html {
+body {
     background-image: url("./snow.jpg");
     background-size: cover;
-}
-
-body {
+    width: 800px;
+    margin: 0 auto;
     color: white;
 }
 
@@ -20,7 +19,6 @@ header ul {
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgba(200, 186, 238, 0.8);
 }
 
 header ul li {
@@ -52,18 +50,22 @@ h3 + p {
 }
 
 nav {
-    position: relative;
-    left: 80px;
-    background-color: rgba(255, 255, 255, 0.4);
-    width: 300px;
-    padding: 10px;
-    list-style-type: circle;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
     line-height: 50px;
     font-size: 20px;
 }
 
-nav:hover {
-    background-color: rgba(255, 255, 255, 0.8);
+nav ul li {
+    list-style-type: none;
+}
+
+nav h3 {
+    letter-spacing: 15px;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 footer {
@@ -75,4 +77,49 @@ footer p {
     font-size: 25px;
     font-weight: 900;
     color: #F4A15D;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    box-shadow: 0px 2px 1px rgb(104, 235, 169);
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #F4A15D;
+    border: 1px solid #F4A15D;
+}
+
+.button:active {
+    background-color: rgba(15, 1, 54, 0.3);
+    box-shadow: 0px 0px;
+}
+
+.button2 {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1px;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.button2:hover {
+    color: blue;
+    border-color: blue;
+    background-color: #F5D415;
 }
