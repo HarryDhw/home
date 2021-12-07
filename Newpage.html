@@ -15,9 +15,52 @@
             <li><a href="#">花园</a></li>
         </ul>
         <div class="iform">
-            <h2>学习WEB前端的小调研</h2>
+            <h3>这是一个HTML的表单的基本样式，里面包括了单选、多选按钮、短文本和长文本、
+                下拉菜单、提交按钮的设置方法。
+            </h3>
             <form action="#" method="post">
-                <label></label>
+                <h2>WEB学习的小调研</h2>
+                <label for="name">名字： </label>
+                <input type="text" name="name" id="name" value="Harry"><br/><br/>
+                <label for="age">年龄： </label>
+                <input type="number" name="age" id="age" value="18"><br/><br/>
+                <label>性别： </label>
+                <label for="m">男 </label><input type="radio" name="wm" id="m">
+                <label for="w">女 </label><input type="radio" name="wm" id="w"><br/><br/>
+                <label for="email">你的邮箱： </label>
+                <input type="email" name="email" id="email"><br/><br/>
+                <fieldset>
+                    <legend>你会什么语言： </legend>
+                    <p>
+                        <input type="checkbox" name="python" id="python">
+                        <label for="python">Python</label><br/>
+                        <input type="checkbox" name="java" id="java">
+                        <label for="java">Java</label><br/>
+                        <input type="checkbox" name="c" id="c">
+                        <label for="c">C++</label><br/>
+                        <label for="other">其他： </label>
+                        <input type="text" name="other" id="other">
+                    </p>
+                </fieldset><br/>
+                <label for="chose">你的学习方向： </label>
+                <select name="study" id="chose">
+                    <option>前端工程师</option>
+                    <option>后端工程师</option>
+                    <option>全栈工程师</option>
+                </select><br/><br/>
+                <label for="occupation">你目前从事的行业： </label>
+                <input type="text" name="occupation" id="occupation" list="example">
+                <datalist id="example">
+                    <option>教育行业</option>
+                    <option>自媒体行业</option>
+                    <option>互联网行业</option>
+                </datalist><br/><br/>
+                <label for="idea">写下您对学习WEB有什么好的想法：</label><br/>
+                <textarea name="idea" id="idea" cols="50" rows="10">例如：每天坚持练习写程序代码...</textarea>
+                <br/><br/>
+                <label for="time">填表日期：</label>
+                <input type="date" name="time" id="time"><br/><br/>
+                <button type="submit"><strong>提交</strong></button>
             </form>
         </div>
     </body>
