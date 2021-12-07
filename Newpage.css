@@ -1,0 +1,41 @@
+body {
+    background-color: #00FFFF;
+    margin: 0;
+}
+
+h1 {
+    background-color: #000099;
+    padding: 10px;
+    margin: 0;
+    font-size: 49px;
+    text-align: center;
+    color: #FFFD00;
+    letter-spacing: 25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+ul {
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 100px;
+}
+ul > li {
+    display: inline-block;
+    width: 80px;
+    margin-right: 5px;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgb(0, 59, 0);
+}
