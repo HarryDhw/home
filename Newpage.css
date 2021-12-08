@@ -50,7 +50,6 @@ a:hover {
     width: 600px;
     margin: 0 auto;
     padding-top: 10px;
-    border: 2px solid blue;
 }
 
 .iform form h2 {
@@ -73,5 +72,58 @@ a:hover {
 }
 
 .iform form button:hover {
+    background-color: orange;
+}
+
+.itable {
+    margin: 0 auto;
+    background-color: #E9F7F9;
+    color: #2D1832;
+}
+
+.itable table {
+    margin: 0 auto;
+    width: 95%;
+    background-color: #DBC1E1;
+    border: 3px solid #479AD1;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table caption {
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: #e7d4eb;
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 70%;
+}
+
+th,td {
+    padding: 5px;
+    overflow: scroll;
+    border: 3px solid #479AD1;
+    text-align: center;
+}
+
+.itable table thead tr {
+    background-color: orange;
+}
+
+.itable table tfoot tr {
     background-color: orange;
 }
