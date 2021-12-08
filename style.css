@@ -1,125 +1,174 @@
 body {
-    background-image: url("./snow.jpg");
-    background-size: cover;
-    width: 800px;
-    margin: 0 auto;
-    color: white;
+    background-color: #00FFFF;
+    margin: 0;
 }
 
 h1 {
-    margin: 0 auto;
+    background-color: #000099;
+    padding: 10px;
+    margin: 0;
+    font-size: 49px;
     text-align: center;
-    letter-spacing: 20px;
-    padding: 20px;
-    font-size: 50px;
-    color: #F4A15D;
+    color: #FFFD00;
+    letter-spacing: 25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    text-shadow: 2px 2px 2px black;
 }
 
-header ul {
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
+ul {
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 100px;
 }
-
-header ul li {
+ul > li {
     display: inline-block;
-    letter-spacing: 20px;
-    padding: 3px;
+    width: 80px;
+    margin-right: 5px;
 }
 
-section h3,h2 {
-    letter-spacing: 5px;
-    color: #F4A15D;
-    padding: 5px;
-}
-
-h2 {
-    margin-top: 35px;
-}
-
-section p {
-    margin: 30px 0;
+a {
     font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    background-color: green;
+    border-radius: 5px;
 }
 
-h3 + p {
-    min-width: 500px;
-    max-width: 800px;
-    letter-spacing: 5px;
-    padding: 5px;
+a:hover {
+    background-color: rgb(0, 59, 0);
 }
 
-nav {
+.iform {
+    color: #7CB7DE;
+    text-align: center;
+}
+
+.iform form {
+    background-color: #163D57;
     width: 600px;
     margin: 0 auto;
-    text-align: center;
-    line-height: 50px;
+    padding-top: 10px;
+}
+
+.iform form h2 {
+    letter-spacing: 10px;
+    color: #92c7eb;
+}
+
+.iform h3 {
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.74);
+    padding-bottom: 10px;
+}
+.iform form button {
     font-size: 20px;
-}
-
-nav ul li {
-    list-style-type: none;
-}
-
-nav h3 {
-    letter-spacing: 15px;
-    text-align: center;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-
-footer {
-    background-color: rgba(15, 1, 54, 0.8);
-}
-
-footer p {
-    padding-left: 20px;
-    font-size: 25px;
-    font-weight: 900;
-    color: #F4A15D;
-    text-align: center;
-}
-
-.button {
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
-    width: 80px;
-    padding: 5px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    box-shadow: 0px 2px 1px rgb(104, 235, 169);
-    cursor: pointer;
-}
-
-.button:hover {
-    color: #F4A15D;
-    border: 1px solid #F4A15D;
-}
-
-.button:active {
-    background-color: rgba(15, 1, 54, 0.3);
-    box-shadow: 0px 0px;
-}
-
-.button2 {
-    display: inline-block;
-    width: 150px;
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    margin: 10px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 1px;
-    margin-top: 20px;
-    font-weight: bolder;
-    text-decoration: none;
 }
 
-.button2:hover {
-    color: blue;
-    border-color: blue;
-    background-color: #F5D415;
+.iform form button:hover {
+    background-color: orange;
+}
+
+.itable {
+    margin: 0 auto;
+    background-color: #E9F7F9;
+    color: #2D1832;
+}
+
+.itable table {
+    margin: 0 auto;
+    width: 95%;
+    background-color: #DBC1E1;
+    border: 3px solid #479AD1;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table caption {
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: #e7d4eb;
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 70%;
+}
+
+th,td {
+    padding: 5px;
+    border: 3px solid #479AD1;
+    text-align: center;
+    height: 30px;
+}
+
+.itable table thead tr {
+    background-color: orange;
+}
+
+.itable table tfoot tr {
+    background-color: orange;
+}
+
+.dog{
+    margin: 0;
+    padding: 0;
+    background-color: #D8EEE1;
+    color: #DA304C;
+}
+.dogbg {
+    background-image: url("./dogbg.jpg");
+    background-size: 520px;
+    background-repeat: repeat-x;
+    height: 500px;
+}
+
+.dogbg h2 {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(219, 106, 14);
+    margin: 0 auto;
+    text-shadow: 0px 3px 2px rgb(255, 255, 255);
+}
+
+.dog section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.dog h3 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.dog p {
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.dog p::first-letter {
+    font-size: 22px;
+    color: chocolate;
+}
+
+.dog img {
+    width: 90%;
 }
