@@ -172,3 +172,27 @@ th,td {
 .dog img {
     width: 90%;
 }
+
+.study {
+    background-color: rgb(0, 3, 46);
+    color: white;
+}
+
+.study h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.study ol li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+.button2 {
+    background-color: rgb(177, 11, 19);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    text-align: center;
+}
