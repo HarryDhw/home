@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1D1F20;
+    color: #F4A15D;
+}
+
+.title {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    font-size: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #36393A;
+    position: fixed;
+    top: 0;
+}
+
+.fmobile {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    font-size: 2rem;
+    align-items: center;
+    background-color: #36393A;
+    position: fixed;
+    bottom: 0;
+}
+.fmobile p {
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+}
+.fmobile a {
+    padding: 10px;
+    text-decoration: none;
+    color: #F4A15D;
+    letter-spacing: 1rem;
+}
+.fmobile a:hover {
+    color: rgb(204, 244, 93);
+}
+a {
+    text-decoration: none;
+    color: #F4A15D;
+}
+.fmobile .border {
+    border-right: #F4A15D solid 3px;
+}
+
+.tu {
+    background-image: url("./two.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #36393A;
+}
+.address h3 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.address .box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 50px;
+    gap: 10px;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;
+    margin-bottom: 20px;
+}
+.address .button2 {
+    background-color: #1D1F20;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.address .button2:hover {
+    background-color: #1d1f2052;
+    color: rgb(204, 244, 93);
+}
+
+.content .biaoti {
+    letter-spacing: 2rem;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.dog {
+    margin: 40px 10px;
+    padding: 20px;
+    border: 1px solid #FCF0F2;
+    background-color: #36393A;
+}
