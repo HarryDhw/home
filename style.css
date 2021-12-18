@@ -1,198 +1,170 @@
-body {
-    background-color: #00FFFF;
-    margin: 0;
-}
-
-h1 {
-    background-color: #000099;
-    padding: 10px;
-    margin: 0;
-    font-size: 49px;
-    text-align: center;
-    color: #FFFD00;
-    letter-spacing: 25px;
-    font-family: 'ZCOOL XiaoWei', serif;
-    text-shadow: 2px 2px 2px black;
-}
-
-ul {
-    margin-top: 5px;
-    text-align: right;
-    margin-right: 100px;
-}
-ul > li {
-    display: inline-block;
-    width: 80px;
-    margin-right: 5px;
-}
-
-a {
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: white;
-    padding: 0 10px;
-    background-color: green;
-    border-radius: 5px;
-}
-
-a:hover {
-    background-color: rgb(0, 59, 0);
-}
-
-.iform {
-    color: #7CB7DE;
-    text-align: center;
-}
-
-.iform form {
-    background-color: #163D57;
-    width: 600px;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-
-.iform form h2 {
-    letter-spacing: 10px;
-    color: #92c7eb;
-}
-
-.iform h3 {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
-    width: 600px;
-    margin: 0 auto;
-    color: rgba(0, 0, 0, 0.74);
-    padding-bottom: 10px;
-}
-.iform form button {
-    font-size: 20px;
-    padding: 5px 10px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.iform form button:hover {
-    background-color: orange;
-}
-
-.itable {
-    margin: 0 auto;
-    background-color: #E9F7F9;
-    color: #2D1832;
-}
-
-.itable table {
-    margin: 0 auto;
-    width: 95%;
-    background-color: #DBC1E1;
-    border: 3px solid #479AD1;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-table caption {
-    padding: 20px;
-    font-size: 25px;
-    letter-spacing: 5px;
-    font-weight: 900;
-}
-
-table tr:nth-child(2n+1) {
-    background-color: #e7d4eb;
-}
-
-thead th:nth-child(1) {
-    width: 10%;
-}
-
-thead th:nth-child(2) {
-    width: 20%;
-}
-
-thead th:nth-child(3) {
-    width: 70%;
-}
-
-th,td {
-    padding: 5px;
-    border: 3px solid #479AD1;
-    text-align: center;
-    height: 30px;
-}
-
-.itable table thead tr {
-    background-color: orange;
-}
-
-.itable table tfoot tr {
-    background-color: orange;
-}
-
-.dog{
     margin: 0;
     padding: 0;
-    background-color: #D8EEE1;
-    color: #DA304C;
-}
-.dogbg {
-    background-image: url("./dogbg.jpg");
-    background-size: 520px;
-    background-repeat: repeat-x;
-    height: 500px;
 }
 
-.dogbg h2 {
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1D1F20;
+    color: #F4A15D;
+}
+
+.title {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    font-size: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #36393A;
+    position: fixed;
+    top: 0;
+}
+
+.fmobile {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    font-size: 1rem;
+    align-items: center;
+    background-color: #36393A;
+    position: fixed;
+    bottom: 0;
+}
+.fmobile p {
     text-align: center;
-    font-size: 80px;
-    color: rgb(219, 106, 14);
     margin: 0 auto;
-    text-shadow: 0px 3px 2px rgb(255, 255, 255);
+    width: 25%;
+}
+.fmobile a {
+    padding: 10px;
+    text-decoration: none;
+    color: #F4A15D;
+}
+.fmobile a:hover {
+    color: rgb(204, 244, 93);
+}
+a {
+    text-decoration: none;
+    color: #F4A15D;
+}
+.fmobile .border {
+    border-right: #F4A15D solid 3px;
 }
 
-.dog section {
-    width: 50%;
+.tu {
+    background-image: url("./two.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #36393A;
+}
+.address h3 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.address .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 50px;
+    gap: 10px;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.address .button2 {
+    background-color: #1D1F20;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.address .button2:hover {
+    background-color: #1d1f2052;
+    color: rgb(204, 244, 93);
+}
+
+h2 {
+    letter-spacing: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.dog {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #36393A;
+    width: 95%;
+    margin: 50px auto;
+    padding: 5px;
 }
 
 .dog h3 {
-    text-align: center;
-    letter-spacing: 5px;
+    font-size: 1rem;
+    padding-left: 10%;
 }
-
-.dog p {
-    line-height: 30px;
-    letter-spacing: 2px;
+.logodog {
+    height: 3rem;
 }
-
-.dog p::first-letter {
-    font-size: 22px;
-    color: chocolate;
-}
-
-.dog img {
-    width: 90%;
-}
-
-.study {
-    background-color: rgb(0, 3, 46);
-    color: white;
-}
-
-.study h3 {
-    text-align: center;
-    font-size: 25px;
+.yoyo {
+    width: 95%;
     margin: 0 auto;
-    padding-top: 20px;
+    display: block;
 }
 
-.study ol li {
-    display: inline-block;
-    margin: 10px 10px;
-}
-.button2 {
-    background-color: rgb(177, 11, 19);
-    font-size: 20px;
-    text-decoration: none;
-    padding: 0 10px;
+.me {
+    background-color: #36393A;
+    margin: 20px auto 80px;
+    width: 90%;
     text-align: center;
+    line-height: 2;
+}
+
+@media screen and (min-width:600px) {
+    #neirong, #shoucang, #aboutme, .fmobile {
+        display: none;
+    }
+
+    .flex {
+        width: 60%;
+        font-size: 120%;
+        margin: 0 auto;
+    }
+
+    .address .box {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .me {
+        width: 100%;
+        border: none;
+        font-size: 1rem;
+    }
 }
