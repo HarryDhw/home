@@ -17,7 +17,7 @@ html {
     display: flex;
     margin: 0 auto;
     width: 100%;
-    height: 70px;
+    height: 80px;
     font-size: 2rem;
     justify-content: space-around;
     align-items: center;
@@ -31,7 +31,8 @@ html {
     margin: 0 auto;
     width: 100%;
     height: 60px;
-    font-size: 1rem;
+    font-size: 2rem;
+    letter-spacing: 1rem;
     align-items: center;
     background-color: #36393A;
     position: fixed;
@@ -68,7 +69,7 @@ a {
     height: 400px;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.5rem;
     color: white;
     line-height: 1.5;
@@ -87,7 +88,7 @@ a {
 }
 .address .box {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 50px;
     gap: 10px;
     justify-items: center;
@@ -146,25 +147,3 @@ h2 {
     line-height: 2;
 }
 
-@media screen and (min-width:600px) {
-    #neirong, #shoucang, #aboutme, .fmobile {
-        display: none;
-    }
-
-    .flex {
-        width: 60%;
-        font-size: 120%;
-        margin: 0 auto;
-    }
-
-    .address .box {
-        width: 100%;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .me {
-        width: 100%;
-        border: none;
-        font-size: 1rem;
-    }
-}
