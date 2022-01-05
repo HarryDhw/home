@@ -1,4 +1,4 @@
-Hello Everyone I'm Harry.
+Hello Everyone I'm Harry. 😄
 =========================
 1. My favorit game: **Dota2**.
 2. My favorit basketball player: **Kobe**.
