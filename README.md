@@ -1,4 +1,4 @@
-# home
-My first web page
-有些混乱。。。
-英文看不懂，还要翻译！！！
+#Hello Everyone I'm Harry.
+1. My favorit game: Dota2.
+2. My favorit basketball player: Kobe.
+3. I have a dog, it's: YoYo.
